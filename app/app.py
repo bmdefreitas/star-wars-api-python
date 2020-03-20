@@ -3,6 +3,7 @@ from flask_restful import Api
 from app.config.db import initialize_db
 from app.routes.planetas import routes
 
+
 app = Flask(__name__)
 api = Api(app)
 
