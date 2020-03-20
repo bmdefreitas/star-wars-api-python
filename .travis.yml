@@ -6,8 +6,4 @@ services:
 install:
   - pip install pipenv
   - pipenv install
-before_script:
-  - export FLASK_APP="$TRAVIS_BUILD_DIR/app/app.py"
-  - export FLASK_DEBUG=1
-script: flask test
-#script: pytest
+script: pytest
