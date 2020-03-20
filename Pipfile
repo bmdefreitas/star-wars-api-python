@@ -3,6 +3,11 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
+[script]
+docs = "python ./docs.py"
+lint = "pylint **/*.py"
+tests = "python -m pytest --cov=marian tests"
+
 [dev-packages]
 
 [packages]
