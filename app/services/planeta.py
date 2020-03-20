@@ -1,5 +1,5 @@
-from flask import Response, request
-from models.planeta import Planeta
+from flask import Response
+from app.models.planeta import Planeta
 from .base import BaseService
 from .swapi import SwapiService
 

@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api
-from config.db import initialize_db
-from routes.planetas import routes
+from app.config.db import initialize_db
+from app.routes.planetas import routes
 
 app = Flask(__name__)
 api = Api(app)

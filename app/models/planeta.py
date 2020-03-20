@@ -1,4 +1,4 @@
-from config.db import db
+from app.config.db import db
 
 class Planeta(db.Document):
     nome = db.StringField(required=True, unique=True)

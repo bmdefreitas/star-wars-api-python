@@ -1,4 +1,4 @@
-from resources.planeta import PlanetaListResource, PlanetaSearchResource, PlanetaResource
+from app.resources.planeta import PlanetaListResource, PlanetaSearchResource, PlanetaResource
 
 def routes(api):
     api.add_resource(PlanetaListResource, '/api/v1/planetas')
